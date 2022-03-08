@@ -17,7 +17,9 @@ Git命令
   - git diff <文件地址> //查看修改的内容
   - git log --pretty=oneline   // 查看每次commit时的信息
   ```
-becd9844303502a79a75339b813988c9515a4ea (HEAD -> master) append GPL  //HEAD表示当前版本
+be215ed7d9bbcd0414022968a5b5199ea210b0c3 (HEAD -> master) 新增reset回退命令 // HEAD表示当前版本
+50d30a9041e25cf4f4a59b7915c7f36e992aa343 新增附件
+dbecd9844303502a79a75339b813988c9515a4ea append GPL
 7453bf0de7ce1cb18248d0e897267d956cfed4b5 修改
 fbd840a3138cc53988ec3d56519bea0611c72253 修改
 0a822c732616dad9f45d69a770e650dd287e9394 git 基本使用
@@ -25,4 +27,8 @@ fbd840a3138cc53988ec3d56519bea0611c72253 修改
 bf3ce7b3b57e0ba66c6b3be6fd53b54e753c9a50 这是一个readme文件，用于上传练习
 ```
 
-  - git reset --hard HEAD^ `HEAD^`表示上一个版本， `HEAD^^`表示上上个版本，如果回退的版本过多，`HEAD~100`表示回退到一百个版本前
+  - git reset --hard HEAD^ // `HEAD^`表示上一个版本， `HEAD^^`表示上上个版本，如果回退的版本过多，`HEAD~100`表示回退到一百个版本前；
+  - git reset --hard 50d30a // 回滚过多，可以取消回退，并跳转到指定的版本 `50d30a`是git的commit id
+  - git reflog //记录每一次命令，显示commit id
+
+
