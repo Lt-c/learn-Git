@@ -14,4 +14,5 @@
   - 查看分支合成图 `git log --graph`
   - 分支管理策略
     - Fast forward 模式，删除分支后，会丢掉分支信息
-    - 
+
+// 测试修改bug,如果在master上修改，那么就在master上创建临时分支`issue-101`
