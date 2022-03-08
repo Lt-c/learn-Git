@@ -1,5 +1,5 @@
-Git is a distributed version control system!
-Git is free software
+Git is a distributed version control system
+Git is free software distributed under the GPL.
 test
 git安装后使用
 1. 设置用户信息
@@ -9,6 +9,10 @@ git安装后使用
    1. 初始化仓库，在文件夹中初始化，生成一个.git文件
    
 Git命令
-git add <文件名> <文件名> // 可以添加多个文件
+  - git add <文件名> <文件名> // 可以添加多个文件
 
-git commit -m "上传描述" //  使用add添加的文件都可以一次性上传
+  - git commit -m "上传描述" //  使用add添加的文件都可以一次性上传
+
+  - git status 查看是否有被修改过
+  - git diff <文件地址> 查看修改的内容
+  - 
