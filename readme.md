@@ -1,5 +1,6 @@
-Git is a distributed version control system !
+Git is a distributed version control system!
 Git is free software
+test
 git安装后使用
 1. 设置用户信息
    1. git config --global user.name "My Name"
