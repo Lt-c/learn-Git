@@ -1,4 +1,4 @@
-Git is a distributed version control system
+Git is a distributed version control system !
 Git is free software
 git安装后使用
 1. 设置用户信息
