@@ -24,4 +24,5 @@ fbd840a3138cc53988ec3d56519bea0611c72253 修改
 90c1d9766d7db448403d458ccb1a89a214078a66 git 基本使用
 bf3ce7b3b57e0ba66c6b3be6fd53b54e753c9a50 这是一个readme文件，用于上传练习
 ```
-  - 
+
+  - git reset --hard HEAD^ `HEAD^`表示上一个版本， `HEAD^^`表示上上个版本，如果回退的版本过多，`HEAD~100`表示回退到一百个版本前
