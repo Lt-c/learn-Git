@@ -11,3 +11,7 @@
   - 切换分支 (switch)
     - git switch -c dev //创建并切换到`dev`分支上
     - git switch dev // 切换到dev分支
+  - 查看分支合成图 `git log --graph`
+  - 分支管理策略
+    - Fast forward 模式，删除分支后，会丢掉分支信息
+    - 
