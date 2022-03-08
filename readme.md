@@ -42,6 +42,7 @@ git远程仓库
   2. 在路径`C:\Users\Administrator\.ssh`,没有修改，一般存放在这个路径,不要去移动它，里面有`id_rsa`和`id_rsa.pub`两个文件,`id_rsa`私钥，`id_ras.pub`公钥
   3. git remote add origin git@github.com:Lt-c/learn-Git.git // 链接到远程的仓库
   4. git push -u origin master  // 把当前分支，推送到远程，因为远程的库是空的，所以第一次推送master分支时候，加上了`-u`参数，git就会把本地的master和远程的master分支关联起来，以后的推送或者拉去就可以简化命令为 `git push origin master`
-  5. 
+  
+分支管理策略
 
 
