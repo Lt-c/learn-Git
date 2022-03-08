@@ -6,4 +6,5 @@
     - git branch // 会显示分支，并且在当前分支前打上`*`
   - 合并分支
     - git checkout master // 回到master分支上，也就是主分支上
-    - git merge dev // 合并dev分支
+    - git merge dev // 合并`dev`分支
+    - git branch -d dev // 删除`dev`分支
