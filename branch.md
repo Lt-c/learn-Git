@@ -32,4 +32,11 @@
     - 新功能的分支，如果功能取消，且没有合并
     - git branch -D <分支名> // 强行删除一个没有合并的分支
 
-  7. 
+  7. 多人协作
+    - 首先是在尝试直接push，`git push origin <branch-name>`
+    - 如果远程分支比你的更新，就需要先把远程库的dev pull下来，合并后再提交
+    - 如果有冲突，先解决冲突，并在本地提交
+    - 没有冲突，或者解决冲突后，使用`git push origin <branch-name>`推送
+     
+  8. Rebase
+    - 
