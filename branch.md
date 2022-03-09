@@ -39,4 +39,4 @@
     - 没有冲突，或者解决冲突后，使用`git push origin <branch-name>`推送
      
   8. Rebase
-    - 
+    - 没懂，就是一个显示日志的问题
